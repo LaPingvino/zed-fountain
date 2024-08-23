@@ -1,5 +1,5 @@
 id = "zed-fountain"
-name = "Adding Fountain support to Zed"
+name = "Fountain for Zed"
 version = "0.0.1"
 schema_version = 1
 authors = ["Joop Kiefte <joop@kiefte.net>"]
