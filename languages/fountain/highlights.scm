@@ -1,15 +1,36 @@
+(title_page) @comment.documentation
+
 [
  (action)
- (dialogue)
+ (speech)
+ (synope)
+ (parenthetical)
+ (note)
 ] @spell
-(parenthetical) @markup.italic
-
-(character) @markup.heading.2
-(transition) @keyword
 
 [
- (section_heading)
- (scene_heading)
-] @markup.heading.1
+(boneyard)
+(section)
+(scene)
+] @nospell
 
-(note) @comment
+(action)@variable
+
+(character)@markup.underline @type
+(parenthetical)@markup.italic @comment
+(speech)@string
+
+(transition)@comment.todo
+
+(break)@type
+
+(section) @markup.heading.1 @keyword
+(scene) @markup.heading.2 @module.builtin
+(synope) @markup.heading.3 @constant
+
+[
+ (note)
+ (boneyard)
+] @comment
+(boneyard)@markup.strikethrough
+
