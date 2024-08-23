@@ -1,2 +1,2 @@
 # zed-fountain
-A Zed extension adding Fountain support
+A Zed extension adding Fountain support. Any fix welcome!
