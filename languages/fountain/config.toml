@@ -1,0 +1,4 @@
+name = "Fountain"
+grammar = "fountain"
+path_suffixes = ["fountain", "spmd"]
+brackets = [{ start = "(", end = ")", close = true, newline = false }]
