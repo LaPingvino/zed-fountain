@@ -1,5 +1,5 @@
 id = "fountain"
-name = "Fountain for Zed"
+name = "Fountain"
 version = "0.0.2"
 schema_version = 1
 authors = ["Joop Kiefte <joop@kiefte.net>"]
