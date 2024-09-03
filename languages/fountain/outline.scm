@@ -3,4 +3,4 @@
 (section3) @name @item
 (scene) @name @item
 (synope) @name @item
-(character) @name @item
+(dialogue_block) @name @item
