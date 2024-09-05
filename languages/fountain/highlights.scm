@@ -3,7 +3,7 @@
 [
  (action)
  (speech)
- (synope)
+ (synopse)
  (parenthetical)
  (note)
 ] @spell
@@ -26,7 +26,7 @@
 
 (section) @markup.heading.1 @keyword
 (scene) @markup.heading.2 @module.builtin
-(synope) @markup.heading.3 @constant
+(synopse) @markup.heading.3 @constant
 
 [
  (note)
