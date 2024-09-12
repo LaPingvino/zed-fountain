@@ -1,6 +1,6 @@
 id = "fountain"
 name = "Fountain"
-version = "0.0.7"
+version = "0.0.8"
 schema_version = 1
 authors = ["Joop Kiefte <joop@kiefte.net>"]
 description = "A Zed extension adding Fountain support"
