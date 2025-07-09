@@ -8,4 +8,4 @@ repository = "https://github.com/LaPingvino/zed-fountain"
 
 [grammars.fountain]
 repository = "https://github.com/LaPingvino/tree-sitter-fountain"
-commit = "2f740be5f3c4d85b2864e02285986797a2904e20"
+commit = "ccf57ef62e844a9b77404bc761f2057cf560ca1a"
