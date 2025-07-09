@@ -1,0 +1,349 @@
+Title: Edge Cases Test
+Author: Fountain Parser Test Suite
+Credit: Testing Edge Cases
+Draft date: 2024-12-01
+
+FADE IN:
+
+# EDGE CASE TESTS
+
+## Character Name Variations
+
+INT. TEST ROOM - DAY
+
+Basic character test.
+
+JOHN
+Hello world.
+
+JOHN (CONT'D)
+Continued dialogue.
+
+JOHN (O.S.)
+Off-screen dialogue.
+
+JOHN (V.O.)
+Voice over dialogue.
+
+JOHN (FILTERED)
+Filtered dialogue.
+
+@COMPUTER
+Computer generated voice.
+
+@ROBOT (V.O.)
+Robot voice over.
+
+~MARY sings
+La la la, this is a song.
+
+MARY
+(singing)
+More singing here.
+
+## Dual Dialogue Tests
+
+                    ALICE ^
+          I'm speaking on the left side.
+
+                    BOB ^
+          I'm speaking on the right side.
+
+They continue speaking simultaneously.
+
+                    ALICE ^
+          This continues the dual dialogue.
+
+                    BOB ^
+          Yes, we're both talking at once.
+
+## Forced Elements
+
+!FORCED ACTION LINE: This should be treated as action.
+
+!Another forced action.
+
+Regular action line.
+
+.FORCED SCENE HEADING
+
+Action after forced scene.
+
+## Transition Variations
+
+FADE IN:
+
+FADE OUT.
+
+FADE TO BLACK.
+
+FADE TO:
+
+CUT TO:
+
+DISSOLVE TO:
+
+MATCH CUT TO:
+
+SMASH CUT TO:
+
+> CUSTOM TRANSITION <
+
+>ANOTHER CUSTOM<
+
+> SPACED CUSTOM TRANSITION <
+
+## Boneyard Comments
+
+/*
+This is a single boneyard comment.
+*/
+
+Action line here.
+
+/*
+This is a multi-line
+boneyard comment that spans
+several lines.
+*/
+
+More action.
+
+/* Single line boneyard */
+
+## Notes
+
+[[This is a note]]
+
+Action with [[inline note]] in the middle.
+
+[[
+Multi-line note
+that spans several lines
+]]
+
+## Synopsis Lines
+
+= This is a synopsis line.
+
+Action after synopsis.
+
+= Another synopsis with more detail about the scene.
+
+## Complex Parentheticals
+
+                    SPEAKER
+                    (whispering)
+          Secret message.
+
+                    SPEAKER
+                    (shouting over noise)
+          Can you hear me?
+
+                    SPEAKER
+                    (to another character)
+          This is directed dialogue.
+
+                    SPEAKER
+                    (beat)
+          After a pause.
+
+                    SPEAKER
+                    (continuing)
+          This continues the thought.
+
+## Empty Lines and Spacing
+
+Action line.
+
+
+Action after double empty line.
+
+
+
+Action after triple empty line.
+
+                    CHARACTER
+          Dialogue after spacing.
+
+
+                    CHARACTER
+          More dialogue after spacing.
+
+## Special Characters in Dialogue
+
+                    SPEAKER
+          I said "Hello there!"
+
+                    SPEAKER
+          What's that? It's 50% off!
+
+                    SPEAKER
+          The equation is: x = y + z.
+
+                    SPEAKER
+          (in French)
+          Bonjour! Comment allez-vous?
+
+## Scene Heading Edge Cases
+
+INT. LOCATION - DAY
+
+EXT. LOCATION - NIGHT
+
+EST. LOCATION - DAWN
+
+INT./EXT. LOCATION - DAY
+
+I/E. LOCATION - NIGHT
+
+.FORCED SCENE
+
+## Title Page Edge Cases
+
+Title:
+    _**EMPHASIZED TITLE**_
+
+Author:
+    Multiple Authors
+    Jane Doe
+    John Smith
+
+Source:
+    Based on the novel
+    "The Great Story"
+    by Famous Author
+
+## Section Heading Tests
+
+# ACT I
+
+## Chapter 1
+
+### Scene A
+
+Action under triple hash.
+
+## Chapter 2
+
+More action.
+
+# ACT II
+
+## Chapter 3
+
+### Scene B
+
+#### Sub-scene (if supported)
+
+## Page Breaks
+
+Action before page break.
+
+===
+
+Action after page break.
+
+## Mixed Case Tests
+
+int. location - day
+
+Action in mixed case scene.
+
+john doe
+Mixed case character name.
+
+                    JOHN DOE
+          Back to proper case.
+
+## Ambiguous Cases
+
+FADE IN:
+
+This could be confused with a character name.
+
+JOHN
+Or this could be action.
+
+JOHN
+But this is clearly dialogue.
+
+FADE OUT.
+
+This is clearly action.
+
+## Nested Structures
+
+/*
+This boneyard contains [[a note]] inside.
+*/
+
+Action with /*inline boneyard*/ comment.
+
+[[Note with some /*boneyard*/ inside]]
+
+## Transition vs Scene Disambiguation
+
+FADE TO:
+
+Not a scene heading.
+
+FADE TO BLACK.
+
+Still not a scene heading.
+
+SOME LOCATION
+
+This might be confused with a character.
+
+                    SOME LOCATION
+          But this is clearly dialogue.
+
+## Long Dialogue Blocks
+
+                    VERBOSE CHARACTER
+          This is a very long dialogue block
+          that spans multiple lines and contains
+          a lot of text to test how the parser
+          handles extended speech patterns.
+
+                    VERBOSE CHARACTER (CONT'D)
+          And this continues the long dialogue
+          with even more text that goes on and
+          on and on to really test the limits
+          of the parser's ability to handle
+          extended dialogue sequences.
+
+## Rapid Transitions
+
+FADE IN:
+
+Quick action.
+
+CUT TO:
+
+Another quick action.
+
+SMASH CUT TO:
+
+Yet another action.
+
+FADE OUT.
+
+## Final Edge Cases
+
+===
+
+THE END
+
+/*
+Final boneyard comment
+*/
+
+[[Final note]]
+
+= Final synopsis
+
+Final action line.
+
+                         FINAL FADE OUT.

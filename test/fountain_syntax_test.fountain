@@ -1,0 +1,369 @@
+Title: Fountain Syntax Test File
+Credit: Written by
+Author: Test Suite
+Source: Based on Fountain specification
+Draft date: 2024-12-01
+Contact:
+    Test Productions
+    123 Example Street
+    Los Angeles, CA 90210
+    (555) 123-4567
+
+FADE IN:
+
+# ACT I - The Beginning
+
+## Chapter 1: Basic Elements
+
+= This synopsis introduces the basic elements of Fountain syntax
+
+INT. TEST LOCATION - DAY
+
+Basic action line that describes what's happening in the scene.
+
+!FORCED ACTION: This action line is forced with an exclamation mark.
+
+JOHN DOE enters the room carrying a briefcase.
+
+                    JOHN DOE
+          This is basic dialogue.
+
+                    JOHN DOE (CONT'D)
+          This is continued dialogue from the
+          same character.
+
+                    JANE SMITH
+                    (whispering)
+          This dialogue has a parenthetical.
+
+                    JOHN DOE (O.S.)
+          This is off-screen dialogue.
+
+                    NARRATOR (V.O.)
+          This is voice-over narration.
+
+@COMPUTER VOICE
+Computer-generated or special character.
+
+~MARY sings softly
+This is a lyric or special speech format.
+
+[[This is a note that won't appear in the final output]]
+
+/*
+This is a boneyard comment.
+Multiple lines can be included here.
+These won't appear in the final script.
+*/
+
+                    JOHN DOE ^
+          This is dual dialogue on the left.
+
+                    JANE SMITH ^
+          This is dual dialogue on the right.
+
+The dual dialogue continues with both characters speaking simultaneously.
+
+                    JOHN DOE ^
+          Left side continues.
+
+                    JANE SMITH ^
+          Right side continues.
+
+MONTAGE - VARIOUS LOCATIONS
+
+A) First montage element
+B) Second montage element
+C) Third montage element
+
+END MONTAGE
+
+                         CUT TO:
+
+EXT. OUTDOOR LOCATION - LATER
+
+More action describing the outdoor scene.
+
+FADE TO BLACK.
+
+                         DISSOLVE TO:
+
+.FORCED SCENE HEADING
+
+This scene heading was forced with a period at the beginning.
+
+                    CHARACTER WITH EMPHASIS
+          This dialogue contains *emphasis* and
+          **bold text** and _underlined_ text.
+
+                    ANOTHER CHARACTER
+          This is a longer speech that goes on
+          for multiple lines to test how the
+          parser handles extended dialogue
+          blocks.
+
+> CUSTOM TRANSITION <
+
+Another action line after the custom transition.
+
+### Chapter 2: Advanced Elements
+
+= Synopsis for the advanced elements section
+
+INT. COMPLEX LOCATION - NIGHT
+
+The action continues with more complex elements.
+
+                    MAIN CHARACTER
+          What do you think about this?
+
+                    SUPPORTING CHARACTER
+                    (thinking)
+          I'm not sure... let me consider
+          this carefully.
+
+                    MAIN CHARACTER
+                    (interrupting)
+          We don't have time to think!
+
+The character RUNS toward the door.
+
+                    MAIN CHARACTER (CONT'D)
+                    (shouting)
+          Come on! We have to go NOW!
+
+SOUND EFFECT: LOUD EXPLOSION
+
+Everyone ducks for cover.
+
+                    SUPPORTING CHARACTER
+                    (panicked)
+          What was that?!
+
+                    MAIN CHARACTER
+          I don't know, but we need to get
+          out of here.
+
+They rush toward the exit.
+
+                    MAIN CHARACTER (CONT'D)
+                    (calling back)
+          Follow me and stay close!
+
+INTERCUT - PHONE CONVERSATION
+
+                    PERSON A
+                    (on phone)
+          Hello? Are you there?
+
+                    PERSON B
+                    (on phone)
+          Yes, I can hear you. What's the
+          situation?
+
+                    PERSON A
+                    (on phone)
+          It's worse than we thought.
+
+END INTERCUT
+
+BACK TO SCENE
+
+The characters continue their escape.
+
+                    MAIN CHARACTER
+          We made it! We're safe now.
+
+                    SUPPORTING CHARACTER
+                    (relieved)
+          Thank goodness. I thought we
+          weren't going to make it.
+
+A moment of silence as they catch their breath.
+
+                    MAIN CHARACTER
+          This isn't over yet.
+
+                         MATCH CUT TO:
+
+INT. SECRET LOCATION - CONTINUOUS
+
+A mysterious figure watches security monitors.
+
+                    MYSTERIOUS FIGURE
+                    (to subordinate)
+          They escaped. But it doesn't matter.
+          We know where they're going.
+
+                    SUBORDINATE
+          Should we pursue them?
+
+                    MYSTERIOUS FIGURE
+          Not yet. Let them think they're
+          safe. We'll strike when they least
+          expect it.
+
+===
+
+# ACT II - The Middle
+
+## Chapter 3: Conflict Escalation
+
+= The conflict begins to escalate in this section
+
+EXT. ABANDONED WAREHOUSE - DAWN
+
+The sun rises over an industrial landscape.
+
+Our heroes approach cautiously.
+
+                    MAIN CHARACTER
+                    (whispered)
+          Remember the plan. We go in quiet,
+          get what we came for, and get out.
+
+                    SUPPORTING CHARACTER
+                    (nodding)
+          Got it. What if we run into
+          trouble?
+
+                    MAIN CHARACTER
+          Then we improvise.
+
+They move toward the entrance.
+
+CLOSE-UP - DOOR HANDLE
+
+A hand reaches for the handle and slowly turns it.
+
+BACK TO SCENE
+
+The door creaks open.
+
+                    MAIN CHARACTER
+                    (looking inside)
+          It's too quiet. Something's not
+          right.
+
+                    SUPPORTING CHARACTER
+          Maybe they're not here.
+
+                    MAIN CHARACTER
+          Or maybe it's a trap.
+
+They exchange worried glances.
+
+                    MAIN CHARACTER (CONT'D)
+          Only one way to find out.
+
+They step inside.
+
+                         SMASH CUT TO:
+
+INT. WAREHOUSE - CONTINUOUS
+
+The space is dark and filled with shadows.
+
+                    MYSTERIOUS VOICE (O.S.)
+          Welcome. We've been expecting you.
+
+Lights suddenly illuminate the space, revealing armed figures.
+
+                    MAIN CHARACTER
+                    (to Supporting Character)
+          Run!
+
+Chaos erupts as they try to escape.
+
+                    SUPPORTING CHARACTER
+                    (while running)
+          This way! I see an exit!
+
+SOUND EFFECT: GUNFIRE
+
+They dive for cover behind shipping containers.
+
+                    MAIN CHARACTER
+                    (breathing heavily)
+          We're pinned down. Any ideas?
+
+                    SUPPORTING CHARACTER
+          There's a skylight above us. If we
+          can reach it...
+
+                    MAIN CHARACTER
+          It's worth a shot.
+
+They prepare for their escape attempt.
+
+                         FADE TO BLACK.
+
+                         SLOW FADE IN:
+
+# ACT III - The Resolution
+
+## Chapter 4: Final Confrontation
+
+= The climactic battle begins
+
+EXT. WAREHOUSE ROOFTOP - MORNING
+
+Our heroes have made it to the roof.
+
+                    MAIN CHARACTER
+          We can't keep running forever.
+          It's time to end this.
+
+                    SUPPORTING CHARACTER
+          Are you sure about this?
+
+                    MAIN CHARACTER
+          No. But it's the only way.
+
+They prepare for the final confrontation.
+
+                    MYSTERIOUS FIGURE (O.S.)
+          You can't escape! Give up now!
+
+                    MAIN CHARACTER
+                    (calling back)
+          Never! We'll fight to the end!
+
+The final battle begins.
+
+MONTAGE - THE FINAL BATTLE
+
+A) Heroes fight desperately
+B) Villains seem to gain the upper hand
+C) Heroes find inner strength
+D) Tide turns in favor of the heroes
+
+END MONTAGE
+
+                    MAIN CHARACTER
+                    (victorious but exhausted)
+          It's over. We did it.
+
+                    SUPPORTING CHARACTER
+          Is it really over?
+
+                    MAIN CHARACTER
+          For now. But there will always be
+          another battle to fight.
+
+They look out over the city as the sun sets.
+
+                    MAIN CHARACTER (CONT'D)
+          Come on. Let's go home.
+
+                         IRIS OUT.
+
+                                               FADE OUT.
+
+THE END
+
+===
+
+FINAL DRAFT
+SHOOTING SCRIPT
+REVISED: 2024-12-01

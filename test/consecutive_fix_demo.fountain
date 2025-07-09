@@ -1,0 +1,57 @@
+Title: Consecutive Character Fix Demo
+Author: Test Suite
+Draft date: 2024-12-01
+
+FADE IN:
+
+INT. TEST ROOM - DAY
+
+This test demonstrates the fix for consecutive character dialogue parsing.
+Before the fix, all the following characters would be parsed as a single dialogue block.
+After the fix, each character should get their own dialogue_block.
+
+                    ALICE
+          I'm the first character to speak.
+
+                    BOB
+          I'm the second character, right after Alice.
+
+                    CHARLIE
+          And I'm the third character in sequence.
+
+                    ALICE
+          Alice speaks again immediately.
+
+                    BOB (O.S.)
+          Bob responds from off-screen.
+
+                    CHARLIE (V.O.)
+          Charlie does voice-over.
+
+@COMPUTER
+System announcement.
+
+                    ALICE
+                    (surprised)
+          Alice reacts to the computer.
+
+                    BOB
+                    (to Charlie)
+          Bob addresses Charlie directly.
+
+                    CHARLIE
+                    (nodding)
+          Charlie acknowledges.
+
+~ALICE hums
+La la la...
+
+                    BOB
+          Bob interrupts the humming.
+
+This should result in separate dialogue_block nodes for each character,
+with proper character highlighting for each name.
+
+FADE OUT.
+
+THE END

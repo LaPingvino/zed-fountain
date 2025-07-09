@@ -1,0 +1,230 @@
+Title: Consecutive Character Test
+Author: Test Suite
+Draft date: 2024-12-01
+
+FADE IN:
+
+INT. TEST ROOM - DAY
+
+This tests consecutive character dialogue without action lines between them.
+
+ALICE
+First character speaks.
+
+BOB
+Second character speaks immediately after.
+
+CHARLIE
+Third character speaks right after.
+
+ALICE
+Alice speaks again.
+
+BOB
+Bob responds.
+
+CHARLIE
+Charlie responds.
+
+Now let's test with parentheticals mixed in:
+
+ALICE
+(excited)
+Alice speaks with parenthetical.
+
+BOB
+Bob responds without parenthetical.
+
+CHARLIE
+(whispering)
+Charlie whispers.
+
+ALICE
+Alice responds normally.
+
+Test with continued dialogue:
+
+ALICE
+Alice starts speaking.
+
+ALICE (CONT'D)
+Alice continues speaking.
+
+BOB
+Bob interrupts.
+
+ALICE (CONT'D)
+Alice continues again.
+
+BOB (CONT'D)
+Bob also continues.
+
+Test with various character extensions:
+
+ALICE (O.S.)
+Alice speaks off-screen.
+
+BOB (V.O.)
+Bob does voice-over.
+
+CHARLIE (FILTERED)
+Charlie speaks filtered.
+
+ALICE
+Back to normal Alice.
+
+BOB (O.S.)
+Bob off-screen again.
+
+Test with special characters:
+
+@COMPUTER
+Computer speaks.
+
+ALICE
+Alice responds to computer.
+
+@ROBOT
+Robot speaks.
+
+BOB
+Bob responds to robot.
+
+~MARY sings
+La la la.
+
+CHARLIE
+Charlie responds to singing.
+
+Test rapid-fire dialogue:
+
+ALICE
+Quick!
+
+BOB
+What?
+
+CHARLIE
+Run!
+
+ALICE
+Where?
+
+BOB
+This way!
+
+CHARLIE
+Hurry!
+
+ALICE
+I'm coming!
+
+BOB
+Keep up!
+
+Test with mixed case (edge case):
+
+alice
+Mixed case character.
+
+ALICE
+Proper case character.
+
+Bob
+Another mixed case.
+
+BOB
+Back to proper case.
+
+Test with numbers and special characters in names:
+
+SOLDIER 1
+First soldier speaks.
+
+SOLDIER 2
+Second soldier responds.
+
+ALICE
+Regular character responds.
+
+SOLDIER 1
+First soldier again.
+
+Test with very similar names:
+
+JOHN
+John speaks.
+
+JOHNNY
+Johnny speaks.
+
+JOHN
+John again.
+
+JOHNNY
+Johnny again.
+
+Test with short names:
+
+A
+Character A.
+
+B
+Character B.
+
+C
+Character C.
+
+A
+A again.
+
+Test dialogue blocks with multiple speeches:
+
+ALICE
+Alice starts.
+Alice continues on second line.
+
+BOB
+Bob responds.
+Bob also continues.
+
+ALICE
+Alice speaks again.
+Multiple lines here too.
+
+BOB
+Bob's final response.
+
+Final test with action interrupting:
+
+ALICE
+Alice speaks.
+
+BOB
+Bob responds.
+
+Alice looks confused.
+
+CHARLIE
+Charlie enters the conversation.
+
+ALICE
+Alice responds to Charlie.
+
+BOB
+Bob chimes in.
+
+The three characters look at each other.
+
+ALICE
+Final line from Alice.
+
+BOB
+Final line from Bob.
+
+CHARLIE
+Final line from Charlie.
+
+FADE OUT.
+
+THE END
