@@ -89,7 +89,33 @@ git rev-parse HEAD
 cd ../..
 ```
 
-### 4. Create PR to Upstream
+### 4. Update extensions.toml Version
+
+**CRITICAL STEP**: Update the version in extensions.toml:
+
+```bash
+# Edit extensions.toml to update fountain version
+# Find the [fountain] section and update the version number
+```
+
+Edit `extensions.toml`:
+```toml
+[fountain]
+submodule = "extensions/fountain"
+version = "0.2.0"  # Update this version number
+```
+
+```bash
+# Commit the version update
+git add extensions.toml
+git commit -m "Update Fountain to 0.2.0
+
+- Updates fountain extension from vX.Y.Z to v0.2.0
+- Includes [brief description of changes]
+- Updates submodule reference to latest commit with [feature description]"
+```
+
+### 5. Create PR to Upstream
 
 Create a clean branch from upstream main:
 
@@ -104,9 +130,12 @@ git checkout -b update-fountain-submodule upstream/main
 git status
 # Should show: modified: extensions/fountain
 
-# Commit the submodule update
-git add extensions/fountain
-git commit -m "Update Fountain to 0.1.0"
+# Update extensions.toml version (CRITICAL!)
+# Edit extensions.toml and update fountain version to match extension.toml
+
+# Commit both the submodule update AND extensions.toml version
+git add extensions/fountain extensions.toml
+git commit -m "Update Fountain to 0.2.0"
 
 # Push and create PR
 git push origin update-fountain-submodule
@@ -159,6 +188,11 @@ Resolves submodule reference issue for packaging.
 - All commits must exist in their respective repositories before PR
 - Submodule updates must reference accessible commits
 
+### Version Consistency
+- **extensions.toml**: MUST be updated with new version number
+- **extension.toml**: Version must match extensions.toml entry
+- **Both files**: Must be included in the same PR commit
+
 ### Message Conventions
 - Follow Zed's "Update [Extension] to [Version]" format exactly
 - No additional description in commit message
@@ -192,10 +226,20 @@ If packaging fails with missing commit:
 2. Check submodule points to correct hash
 3. Ensure PR updates submodule reference
 
+### Missing extensions.toml Update
+If PR gets warning about missing extensions.toml changes:
+```bash
+# Edit extensions.toml to update version
+# Find [fountain] section and update version number
+git add extensions.toml
+git commit --amend -m "Update Fountain to 0.2.0"
+git push --force-with-lease origin branch-name
+```
+
 ### Wrong Commit Message
 If PR has wrong format:
 ```bash
-git commit --amend -m "Update Fountain to 0.1.0"
+git commit --amend -m "Update Fountain to 0.2.0"
 git push --force-with-lease origin branch-name
 ```
 
@@ -206,8 +250,8 @@ git fetch origin
 git checkout main
 git pull
 cd ../..
-git add extensions/fountain
-git commit -m "Update Fountain to 0.1.0"
+git add extensions/fountain extensions.toml
+git commit -m "Update Fountain to 0.2.0"
 ```
 
 ## Version History
@@ -230,7 +274,9 @@ git commit -m "Update Fountain to 0.1.0"
 - [ ] Extension version updated with full tree-sitter hash
 - [ ] Main extension repository commit matches expected hash
 - [ ] Extensions fork submodule points to correct commit
+- [ ] **extensions.toml version number updated to match**
 - [ ] PR created with proper message format
+- [ ] PR includes both submodule AND extensions.toml changes
 - [ ] All test files pass verification
 - [ ] Unicode support confirmed working
 
