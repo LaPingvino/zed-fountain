@@ -1,6 +1,6 @@
 id = "fountain"
 name = "Fountain"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Joop Kiefte <joop@kiefte.net>"]
 description = "A Zed extension adding Fountain support"
@@ -9,3 +9,8 @@ repository = "https://github.com/LaPingvino/zed-fountain"
 [grammars.fountain]
 repository = "https://github.com/LaPingvino/tree-sitter-fountain"
 commit = "2d943e1"
+
+[language_servers.lexington-lsp]
+name = "Lexington LSP"
+command = "./bin/lexington"
+args = ["--lsp"]
