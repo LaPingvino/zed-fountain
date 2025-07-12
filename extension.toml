@@ -1,6 +1,6 @@
 id = "fountain"
 name = "Fountain"
-version = "0.0.9"
+version = "0.1.0"
 schema_version = 1
 authors = ["Joop Kiefte <joop@kiefte.net>"]
 description = "A Zed extension adding Fountain support"
@@ -8,4 +8,4 @@ repository = "https://github.com/LaPingvino/zed-fountain"
 
 [grammars.fountain]
 repository = "https://github.com/LaPingvino/tree-sitter-fountain"
-commit = "ccf57ef62e844a9b77404bc761f2057cf560ca1a"
+commit = "2d943e1"
