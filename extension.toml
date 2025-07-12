@@ -8,7 +8,7 @@ repository = "https://github.com/LaPingvino/zed-fountain"
 
 [grammars.fountain]
 repository = "https://github.com/LaPingvino/tree-sitter-fountain"
-commit = "2d943e1"
+commit = "2d943e1e3ec8426ab4ae2d5d27c799a5760ebfdb"
 
 [language_servers.lexington-lsp]
 name = "Lexington LSP"
